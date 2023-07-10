@@ -55,12 +55,9 @@ submitBtn.onclick = () => {
     isLastNameOk = true;
   }
   if (validateEmail(emailInput.value)) {
-    // emailInput.classList.add("is-invalid");
     emailInput.classList.add("is-valid");
     isEmailOk = true;
   } else {
-    // emailInput.classList.add("is-valid");
-    // isEmailOk = true;
     emailInput.classList.add("is-invalid");
   }
   if (passwordInput.value.length >= 6) {
